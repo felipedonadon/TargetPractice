@@ -45,7 +45,53 @@
     <Analyzer Include="/Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/PlayerInputActions.cs" />
+    <Compile Include="Assets/Scripts/PlayerInputHandler.cs" />
+    <Compile Include="Assets/Scripts/Menus/ScoreManager.cs" />
+    <Compile Include="Assets/Scripts/Shootables/BaseShootable.cs" />
+    <Compile Include="Assets/Scripts/Managers/ShootableManager.cs" />
+    <Compile Include="Assets/Scripts/Shootables/Target.cs" />
+    <Compile Include="Assets/Scripts/Menus/GameSettings.cs" />
+    <Compile Include="Assets/Scripts/UpdateStores.cs" />
+    <Compile Include="Assets/Scripts/Menus/FloatingText.cs" />
+    <Compile Include="Assets/Scripts/Managers/AntiTargetManager.cs" />
+    <Compile Include="Assets/Scripts/Shootables/StaticTarget.cs" />
+    <Compile Include="Assets/Scripts/Shootables/TargetBaloon.cs" />
+    <Compile Include="Assets/Scripts/Bullet.cs" />
+    <Compile Include="Assets/Scripts/Menus/MainMenu.cs" />
+    <Compile Include="Assets/Scripts/Menus/GameTimer.cs" />
+    <Compile Include="Assets/Scripts/Menus/GameManager.cs" />
+    <Compile Include="Assets/Scripts/PointsManager.cs" />
+    <Compile Include="Assets/Scripts/Menus/SettingsManager.cs" />
+    <Compile Include="Assets/Input/PlayerInputActions.cs" />
+    <Compile Include="Assets/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/Scripts/Weapon.cs" />
+    <Compile Include="Assets/Scripts/Managers/TargetManager.cs" />
+    <Compile Include="Assets/Scripts/Shootables/StaticAntiTarget.cs" />
+    <Compile Include="Assets/Scripts/FirstPersonController.cs" />
+    <Compile Include="Assets/Scripts/Shootables/BeerBottle.cs" />
+    <Compile Include="Assets/Scripts/Shootables/AntiTarget.cs" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
