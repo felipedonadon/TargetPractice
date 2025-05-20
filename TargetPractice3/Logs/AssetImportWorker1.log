@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63564
+63749
 Successfully changed project path to: /Users/felipereganindonadon/Documents/GitHub/TargetPractice/TargetPractice3
 /Users/felipereganindonadon/Documents/GitHub/TargetPractice/TargetPractice3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,12 +58,12 @@ Successfully changed project path to: /Users/felipereganindonadon/Documents/GitH
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8692239488]  Target information:
 
-Player connection [8692239488]  * "[IP] 192.168.178.49 [Port] 0 [Flags] 2 [Guid] 2003416250 [EditorId] 2003416250 [Version] 1048832 [Id] OSXEditor(0,Mac.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8692239488]  * "[IP] 192.168.178.49 [Port] 0 [Flags] 2 [Guid] 4160931366 [EditorId] 4160931366 [Version] 1048832 [Id] OSXEditor(0,Mac.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8692239488] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8692239488] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path /Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/Resources/UnitySubsystems
@@ -78,54 +78,54 @@ Initialize mono
 Mono path[0] = '/Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56847
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001990 seconds.
-- Loaded All Assemblies, in  0.174 seconds
+Registered in 0.001703 seconds.
+- Loaded All Assemblies, in  0.162 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 55 ms
+Android Extension - Scanning For ADB Devices 56 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.238 seconds
-Domain Reload Profiling: 412ms
-	BeginReloadAssembly (38ms)
+- Finished resetting the current domain, in  0.236 seconds
+Domain Reload Profiling: 397ms
+	BeginReloadAssembly (35ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (84ms)
-		LoadAssemblies (38ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (35ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (75ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (238ms)
+	FinalizeReload (236ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (212ms)
+		SetupLoadedEditorAssemblies (211ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (136ms)
+			InitializePlatformSupportModulesInManaged (139ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (52ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (49ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -134,55 +134,54 @@ Domain Reload Profiling: 412ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.287 seconds
+- Loaded All Assemblies, in  0.278 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
-2025-05-20 19:23:58.496 Unity[34588:7866136] [XcodeApplications] Failed to read NSDictionary from path 8!#(/Contents/Info.plist
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.348 seconds
-Domain Reload Profiling: 635ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 606ms
+	BeginReloadAssembly (60ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (16ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (101ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (95ms)
-				TypeCache.ScanAssembly (85ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (349ms)
+	FinalizeReload (328ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (254ms)
+		SetupLoadedEditorAssemblies (241ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Users/felipereganindonadon/Documents/Unity/2022.3.47f1-arm64/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3548 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (48.8 KB). Loaded Objects now: 4019.
-Memory consumption went from 142.3 MB to 142.3 MB.
-Total: 2.259042 ms (FindLiveObjects: 0.118000 ms CreateObjectMapping: 0.033375 ms MarkObjects: 2.037958 ms  DeleteObjects: 0.069125 ms)
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (48.7 KB). Loaded Objects now: 4018.
+Memory consumption went from 142.2 MB to 142.2 MB.
+Total: 2.160542 ms (FindLiveObjects: 0.095834 ms CreateObjectMapping: 0.031792 ms MarkObjects: 1.961000 ms  DeleteObjects: 0.071250 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -199,153 +198,159 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 310999.410938 seconds.
-  path: Assets/TMP Gradients/NegativePointsColor.asset
-  artifactKey: Guid(8b26f835c9fc841f899a1fc0eb0a3620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TMP Gradients/NegativePointsColor.asset using Guid(8b26f835c9fc841f899a1fc0eb0a3620) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0f635d0ab0dba09142d40fcb8e180fd1') in 0.005311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/TMP Gradients
-  artifactKey: Guid(0669ab3c22106407d8ea6bb715375e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TMP Gradients using Guid(0669ab3c22106407d8ea6bb715375e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '284fc96e753fe143fb359247e75a0c86') in 0.000171 seconds
+  Time since last request: 311804.425997 seconds.
+  path: Assets/Crosshairs/Art/Textures
+  artifactKey: Guid(ff0be6beef160c74fa357da3c3371c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures using Guid(ff0be6beef160c74fa357da3c3371c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e5c21f9364e458db84cf3275030133d9') in 0.001021 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x321d4f000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.252 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 942ms
-	BeginReloadAssembly (81ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (147ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (690ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3526 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4022.
-Memory consumption went from 146.6 MB to 146.6 MB.
-Total: 2.082833 ms (FindLiveObjects: 0.110583 ms CreateObjectMapping: 0.032875 ms MarkObjects: 1.912917 ms  DeleteObjects: 0.025834 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9f4a1640565fea162617c324b194dda0 -> f770f95fe93b3b3b33430ab1ff5e84cd
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Crosshairs/Art
+  artifactKey: Guid(e3d9ef9ae33924b48a432d8787e51c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art using Guid(e3d9ef9ae33924b48a432d8787e51c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac4b83657f050b4bd138f6e3444efd73') in 0.000140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-Thread 0x16beb7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.217 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.662 seconds
-Domain Reload Profiling: 879ms
-	BeginReloadAssembly (67ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (114ms)
-		LoadAssemblies (130ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (662ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3527 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 4025.
-Memory consumption went from 155.4 MB to 155.4 MB.
-Total: 2.212583 ms (FindLiveObjects: 0.133208 ms CreateObjectMapping: 0.033709 ms MarkObjects: 2.012916 ms  DeleteObjects: 0.032250 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 9f4a1640565fea162617c324b194dda0 -> f770f95fe93b3b3b33430ab1ff5e84cd
+Received Import Request.
+  Time since last request: 0.757138 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_02.png
+  artifactKey: Guid(9ee137293631b9e46b1a401b72b130a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_02.png using Guid(9ee137293631b9e46b1a401b72b130a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd257c1cfa3e5412ea6b60949746ef6e6') in 0.044555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_06.png
+  artifactKey: Guid(b889ef0124f73fa4298de5e962dac98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_06.png using Guid(b889ef0124f73fa4298de5e962dac98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'faefaa232ded9de5dbe9c64ae73e9cff') in 0.003272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_07.png
+  artifactKey: Guid(c9eecbebc2f28f94488fbbf662912f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_07.png using Guid(c9eecbebc2f28f94488fbbf662912f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4857bf9bbbc7efa876033109e73e36f2') in 0.003367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_19.png
+  artifactKey: Guid(1d78ea13ed0615c4996735add71cbd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_19.png using Guid(1d78ea13ed0615c4996735add71cbd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3434d3e56296b182ea5616e32a451cc9') in 0.002983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_14.png
+  artifactKey: Guid(1d1b964de9e4c50418b4d14cdf24d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_14.png using Guid(1d1b964de9e4c50418b4d14cdf24d9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '201ccdc792bda877962454f2ddb41473') in 0.003171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_16.png
+  artifactKey: Guid(743aae4b5553cb24eb7caf0bce1a4128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_16.png using Guid(743aae4b5553cb24eb7caf0bce1a4128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd7dae2c5b637c358f33cffe176088e2') in 0.002999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_21.png
+  artifactKey: Guid(a8e5031638aa2204082c6f51d5fe1edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_21.png using Guid(a8e5031638aa2204082c6f51d5fe1edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '028dee47e84c6d0f9b36a7b95e73a0c4') in 0.002533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_15.png
+  artifactKey: Guid(3e60add3ecb1915459d46e3b3a0287f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_15.png using Guid(3e60add3ecb1915459d46e3b3a0287f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d01a81ca7a6794ecd79ece6c510cbc4') in 0.002568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_10.png
+  artifactKey: Guid(bfb6bd7e8471f5442bd8e524bdda3380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_10.png using Guid(bfb6bd7e8471f5442bd8e524bdda3380) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cfdcbb77ce05aebf81974fa516089e75') in 0.002682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_26.png
+  artifactKey: Guid(552478a654d2eb8478c30045279d5688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_26.png using Guid(552478a654d2eb8478c30045279d5688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f57120becbaa30ad4f432191d6323962') in 0.002226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_17.png
+  artifactKey: Guid(c186448c466fad9478c38ce9c2f7b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_17.png using Guid(c186448c466fad9478c38ce9c2f7b71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2230d88a71035d9ae937e843233ea795') in 0.002655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_24.png
+  artifactKey: Guid(6f6c2d827b5ed454b90a1529cefe9041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_24.png using Guid(6f6c2d827b5ed454b90a1529cefe9041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13c71731b5ec370ed18352798fc6854e') in 0.002619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_27.png
+  artifactKey: Guid(7789b657ea330f94d9b70d6d4a117aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_27.png using Guid(7789b657ea330f94d9b70d6d4a117aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '327e4e43705894da97f962e4e01dce08') in 0.002412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Crosshairs/Art/Textures/Crosshair_09.png
+  artifactKey: Guid(b26c1b2c24c056a43931e5b20d8d9193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Crosshairs/Art/Textures/Crosshair_09.png using Guid(b26c1b2c24c056a43931e5b20d8d9193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd272c6feb5161a296615b8fe5840cca4') in 0.002669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2

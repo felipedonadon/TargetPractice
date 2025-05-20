@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1512
     height: 833
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -572,9 +572,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fefaffff
-      m_LastClickedID: -1282
-      m_ExpandedIDs: e4f9ffff12faffff30faffff9efaffffbcfaffffdafafffff8fafffffefaffff725d0000845d0000a65d0000b65d0000c45d0000
+      m_SelectedIDs: fe5c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: b4f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.037798278, y: 0.01108896, z: -0.00041943646, w: -0.99922466}
     speed: 2
-    m_Value: {x: -0.03779825, y: 0.011088951, z: -0.0004194361, w: -0.9992238}
+    m_Value: {x: -0.037798278, y: 0.011088959, z: -0.00041943643, w: -0.9992246}
   m_Size:
     m_Target: 201.61508
     speed: 2
@@ -1065,7 +1065,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Menus
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1073,16 +1073,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Menus
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/felipereganindonadon/Documents/GitHub/TargetPractice/TargetPractice3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 22}
-    m_SelectedIDs: 28760000
-    m_LastClickedID: 30248
-    m_ExpandedIDs: 00000000ec5f0000fa5f000000ca9a3b
+    scrollPos: {x: 0, y: 34}
+    m_SelectedIDs: 52600000
+    m_LastClickedID: 24658
+    m_ExpandedIDs: 00000000f65c0000fa5c0000526000006060000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1110,7 +1110,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec5f0000
+    m_ExpandedIDs: 0000000052600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
